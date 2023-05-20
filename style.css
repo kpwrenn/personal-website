@@ -1,0 +1,29 @@
+* { 
+    background-color: rgb(30, 26, 26);
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+nav { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+nav p { 
+    color: white;
+    font-size: 3em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+ul { 
+    list-style-type: none;
+}
+nav li { 
+    display: inline-block;
+    padding: 0.8em 2.5em;
+}
+li a { 
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+}
